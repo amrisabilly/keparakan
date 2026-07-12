@@ -331,7 +331,7 @@ export default function Home() {
             <div className="relative overflow-hidden rounded-3xl border border-[#d7e0ea] bg-white shadow-sm lg:col-span-2 lg:order-2">
               <div className="relative aspect-4/3 w-full overflow-hidden sm:aspect-video">
                 <Image
-                  src="/gambar_peta.jpeg"
+                  src="/gambar_peta.jpg"
                   alt="Peta Kampung Keparakan"
                   fill
                   sizes="(min-width: 1024px) 66vw, 100vw"
@@ -347,7 +347,7 @@ export default function Home() {
                   </div>
                   <a
                     className="inline-flex items-center gap-1.5 rounded-full bg-[#d4af37] px-3.5 py-2 text-xs font-semibold text-[#0a1a30] shadow-sm transition hover:-translate-y-0.5 hover:bg-[#e6c65c]"
-                    href="https://maps.app.goo.gl/o3215mKgHBZuEE4F7"
+                    href="https://maps.app.goo.gl/jE93quVFFYSRMQCN6"
                     rel="noopener noreferrer"
                     target="_blank"
                   >

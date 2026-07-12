@@ -8,7 +8,6 @@ const navItems: NavItem[] = [
   { label: "Perangkat", href: "#perangkat" },
   { label: "Peta", href: "#peta" },
   { label: "UMKM", href: "#umkm" },
-  { label: "KKN", href: "/kkn" },
   { label: "Kontak", href: "#kontak" },
 ];
 
