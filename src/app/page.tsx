@@ -108,12 +108,12 @@ export default function Home() {
       <header className="relative isolate flex min-h-screen flex-col overflow-hidden bg-[#10233f] px-4 pb-16 pt-4 text-white sm:px-8 sm:pb-20 sm:pt-6 lg:px-12 lg:pb-24">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(165deg,#0a1a30_0%,#14315a_55%,#0d1f38_100%)]" />
         <Image
-          src="/bg2.jpg"
+          src="/hero5.jpg"
           alt="Suasana Kampung Keparakan, Yogyakarta"
           fill
           priority
-          sizes="50vw"
-          className="pointer-events-none absolute inset-0 object-cover object-center opacity-60"
+          sizes="100vw"
+          className="pointer-events-none absolute inset-0 h-full w-full object-center opacity-60"
         />
         {/* <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_80%_10%,rgba(212,175,55,.22),transparent_45%),radial-gradient(circle_at_15%_40%,rgba(212,175,55,.12),transparent_40%),linear-gradient(to_bottom,rgba(24,7,11,.4),rgba(24,7,11,.75))]" />
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,rgba(212,175,55,.09)_1px,transparent_1px),linear-gradient(to_bottom,rgba(212,175,55,.09)_1px,transparent_1px)] bg-size-[28px_28px] opacity-25" /> */}
@@ -128,7 +128,7 @@ export default function Home() {
               Website Profil & Potensi Kampung
             </p>
             <h1 className="mt-5 text-balance text-3xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
-              Portal Digital Kampung Keparakan
+              Portal Digital Kampung Keparakan Kidul
             </h1>
             <p className="mt-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#d4af37]">
               Yogyakarta
@@ -255,7 +255,7 @@ export default function Home() {
         </section>
 
         {/* Perangkat kini tampil sebagai daftar horizontal, bukan grid kartu tiga kolom */}
-        <section
+        {/* <section
           id="perangkat"
           aria-labelledby="perangkat-title"
           className="scroll-mt-24 space-y-7"
@@ -295,7 +295,7 @@ export default function Home() {
               </article>
             ))}
           </div>
-        </section>
+        </section> */}
 
         <section id="peta" aria-labelledby="map-title" className="scroll-mt-24 space-y-6">
           <div id="map-title">

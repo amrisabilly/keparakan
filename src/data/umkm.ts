@@ -1,3 +1,22 @@
+/**
+ * ⚠️ DATA FIKTIF / DUMMY — HANYA UNTUK KEPERLUAN DEVELOPMENT SEMENTARA ⚠️
+ *
+ * Nama pemilik, harga, alamat RT, dan data lain di bawah ini BUKAN data nyata.
+ * Ini dibuat agar struktur & tampilan UI bisa diuji sebelum data asli tersedia.
+ *
+ * Sebelum website ini go-live, ganti seluruh isi array `umkmProducts` dengan
+ * data UMKM asli dari Keparakan Kidul (nama pemilik, produk, harga, foto asli)
+ * yang didapat langsung dari:
+ * - Pengurus RW/RT setempat, atau
+ * - Koperasi Kerajinan Keparakan Mandiri Sejahtera (KOKKMAS)
+ *
+ * Konteks nyata sebagai referensi arah produk (BUKAN untuk disalin sebagai fakta):
+ * Keparakan Kidul dikenal sebagai sentra kerajinan kulit (sandal, tas, jaket)
+ * sejak 1980-an, dengan koperasi KOKKMAS sebagai wadah UMKM setempat.
+ * Sumber: warta.jogjakota.go.id/detail/index/22904,
+ *         pariwisata.jogjakota.go.id/detail/index/966
+ */
+
 export type UmkmProduct = {
   slug: string;
   name: string;
@@ -11,68 +30,69 @@ export type UmkmProduct = {
   discountLabel?: string;
   location: string;
   features: string[];
+  isDummyData?: boolean; // flag pengingat: true = belum diverifikasi/data placeholder
 };
 
 export const umkmProducts: UmkmProduct[] = [
   {
-    slug: "slondok-bu-nuryani",
-    name: "Slondok Bu Nuryani",
-    owner: "Bu Nuryani",
-    category: "Makanan",
-    description: "Slondok terbuat dari singkong",
+    slug: "sandal-kulit",
+    name: "Sandal Kulit Keparakan",
+    owner: "[Nama Pemilik - TBD]",
+    category: "Kerajinan Kulit",
+    description:
+      "Placeholder deskripsi. Ganti dengan deskripsi produk asli dari pengrajin.",
     accent:
-      "radial-gradient(circle at 20% 20%, #f6e8b6 0%, #c89d5c 35%, #7a5a2c 100%)",
-    image: "/umkm/slondok-bu-nuryani.svg",
-    price: 45000,
-    oldPrice: 60000,
-    discountLabel: "25%",
-    location: "RT 06, Kampung Keparakan",
-    features: ["100% Alami", "Ramah Lingkungan", "Produksi Lokal"],
+      "radial-gradient(circle at 20% 20%, #e8d4b0 0%, #8a5a2c 35%, #4a2f18 100%)",
+    image: "/sendal.jpg",
+    price: 0,
+    location: "RT [TBD], Kampung Keparakan Kidul",
+    features: ["Kerajinan Tangan", "Kulit Sintetis/Asli", "Produksi Lokal"],
+    isDummyData: true,
   },
   {
-    slug: "gula-jawa-organik",
-    name: "Gula Jawa Organik",
-    owner: "Ibu Maryati",
-    category: "Makanan & Minuman",
-    description: "Gula jawa murni dari nira kelapa tanpa campuran bahan kimia.",
+    slug: "tas-kulit-contoh",
+    name: "[CONTOH] Tas Kulit Keparakan",
+    owner: "[Nama Pemilik - TBD]",
+    category: "Kerajinan Kulit",
+    description:
+      "Placeholder deskripsi. Ganti dengan deskripsi produk asli dari pengrajin.",
     accent:
-      "radial-gradient(circle at 25% 25%, #f4cf7f 0%, #b36c2b 45%, #4b2f1b 100%)",
-    image: "/umkm/gula-jawa-organik.svg",
-    price: 25000,
-    oldPrice: 30000,
-    discountLabel: "20%",
-    location: "RT 04, Kampung Keparakan",
-    features: ["100% Alami", "Tanpa Pengawet", "Produksi Lokal"],
+      "radial-gradient(circle at 25% 25%, #d9c3a0 0%, #6b4423 45%, #33210f 100%)",
+    image: "/umkm/placeholder-tas-kulit.svg",
+    price: 0,
+    location: "RT [TBD], Kampung Keparakan Kidul",
+    features: ["Kerajinan Tangan", "Desain Custom", "Produksi Lokal"],
+    isDummyData: true,
   },
   {
-    slug: "kopi-robusta-keparakan",
-    name: "Kopi Robusta Keparakan",
-    owner: "Pak Joko",
-    category: "Makanan & Minuman",
-    description: "Biji kopi pilihan yang diproses secara tradisional.",
+    slug: "jaket-kulit-contoh",
+    name: "[CONTOH] Jaket Kulit Keparakan",
+    owner: "[Nama Pemilik - TBD]",
+    category: "Kerajinan Kulit",
+    description:
+      "Placeholder deskripsi. Ganti dengan deskripsi produk asli dari pengrajin.",
     accent:
-      "radial-gradient(circle at 30% 20%, #d2b28c 0%, #7a5337 45%, #2f2017 100%)",
-    image: "/umkm/kopi-robusta-keparakan.svg",
-    price: 65000,
-    oldPrice: 75000,
-    discountLabel: "13%",
-    location: "RT 01, Kampung Keparakan",
-    features: ["Single Origin", "Aroma Kuat", "Roasted Lokal"],
+      "radial-gradient(circle at 30% 20%, #c9b291 0%, #5a3d21 45%, #2a1c10 100%)",
+    image: "/umkm/placeholder-jaket-kulit.svg",
+    price: 0,
+    location: "RT [TBD], Kampung Keparakan Kidul",
+    features: ["Kerajinan Tangan", "Kulit Berkualitas", "Produksi Lokal"],
+    isDummyData: true,
   },
   {
-    slug: "batik-tulis-keparakan",
-    name: "Batik Tulis Keparakan",
-    owner: "Ibu Narti",
-    category: "Tekstil",
-    description: "Motif batik khas Keparakan dengan pewarna alami.",
+    slug: "souvenir-kulit-contoh",
+    name: "[CONTOH] Souvenir Kulit Keparakan",
+    owner: "[Nama Pemilik - TBD]",
+    category: "Kerajinan Kulit",
+    description:
+      "Placeholder deskripsi. Ganti dengan deskripsi produk asli dari pengrajin.",
     accent:
-      "radial-gradient(circle at 30% 20%, #9ac5b0 0%, #456f5a 45%, #243f34 100%)",
-    image: "/umkm/batik-tulis-keparakan.svg",
-    price: 350000,
-    oldPrice: 400000,
-    discountLabel: "12%",
-    location: "RT 03, Kampung Keparakan",
-    features: ["Motif Khas", "Pewarna Alami", "Dibuat Manual"],
+      "radial-gradient(circle at 30% 20%, #cbb896 0%, #79552f 45%, #392715 100%)",
+    image: "/umkm/placeholder-souvenir-kulit.svg",
+    price: 0,
+    location: "RT [TBD], Kampung Keparakan Kidul",
+    features: ["Oleh-oleh Khas", "Handmade", "Produksi Lokal"],
+    isDummyData: true,
   },
 ];
 
