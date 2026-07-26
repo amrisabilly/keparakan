@@ -47,7 +47,7 @@ export default function Footer() {
       </div>
 
       <p className="mx-auto mt-9 w-full max-w-6xl border-t border-[#d4af37]/20 pt-6 text-xs text-white/70">
-        © {currentYear} Kampung Keparakan. Semua hak dilindungi.
+        © {currentYear} Kampung Keparakan. Semua hak dilindungi. KKN UPNVYK 84 014
       </p>
     </footer>
   );

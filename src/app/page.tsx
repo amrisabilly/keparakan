@@ -379,19 +379,19 @@ export default function Home() {
                   </span>
                 </div>
                 <h3 className="mt-4 text-base font-semibold text-[#16233c]">{product.name}</h3>
-                <p className="mt-1 text-sm font-medium text-[#4d7398]">{product.owner}</p>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-[#45566b]">
+                {/* <p className="mt-1 text-sm font-medium text-[#4d7398]">{product.owner}</p> */}
+                {/* <p className="mt-2 flex-1 text-sm leading-relaxed text-[#45566b]">
                   {product.description}
-                </p>
-                <p className="mt-3 text-sm font-bold text-[#14315a]">
+                </p> */}
+                {/* <p className="mt-3 text-sm font-bold text-[#14315a]">
                   Rp {idrCurrency.format(product.price)}
-                </p>
-                <Link
+                </p> */}
+                {/* <Link
                   className="mt-4 w-fit rounded-full border border-[#14315a] px-3 py-1 text-xs font-semibold text-[#14315a] transition hover:bg-[#14315a] hover:text-white"
                   href={`/umkm/${product.slug}`}
                 >
                   Lihat Detail
-                </Link>
+                </Link> */}
               </article>
             ))}
           </div>

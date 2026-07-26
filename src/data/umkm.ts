@@ -51,14 +51,14 @@ export const umkmProducts: UmkmProduct[] = [
   },
   {
     slug: "tas-kulit-contoh",
-    name: "[CONTOH] Tas Kulit Keparakan",
+    name: "Tas Kulit Keparakan",
     owner: "[Nama Pemilik - TBD]",
     category: "Kerajinan Kulit",
     description:
       "Placeholder deskripsi. Ganti dengan deskripsi produk asli dari pengrajin.",
     accent:
       "radial-gradient(circle at 25% 25%, #d9c3a0 0%, #6b4423 45%, #33210f 100%)",
-    image: "/umkm/placeholder-tas-kulit.svg",
+    image: "/tas.jpg",
     price: 0,
     location: "RT [TBD], Kampung Keparakan Kidul",
     features: ["Kerajinan Tangan", "Desain Custom", "Produksi Lokal"],
@@ -66,14 +66,14 @@ export const umkmProducts: UmkmProduct[] = [
   },
   {
     slug: "jaket-kulit-contoh",
-    name: "[CONTOH] Jaket Kulit Keparakan",
+    name: "Jaket Kulit Keparakan",
     owner: "[Nama Pemilik - TBD]",
     category: "Kerajinan Kulit",
     description:
       "Placeholder deskripsi. Ganti dengan deskripsi produk asli dari pengrajin.",
     accent:
       "radial-gradient(circle at 30% 20%, #c9b291 0%, #5a3d21 45%, #2a1c10 100%)",
-    image: "/umkm/placeholder-jaket-kulit.svg",
+    image: "/jaket.jpg",
     price: 0,
     location: "RT [TBD], Kampung Keparakan Kidul",
     features: ["Kerajinan Tangan", "Kulit Berkualitas", "Produksi Lokal"],
